@@ -1,0 +1,77 @@
+
+HTML es el lenguaje de marcado estándar utilizado para crear páginas web.
+A continuación dejo algunas de las variables básicas que se utilizan en HTML:
+
+Etiquetas: Son elementos utilizados para estructurar y dar formato al contenido de una página web. 
+Las etiquetas se escriben entre corchetes angulares (<>) y pueden tener atributos que definen características adicionales.
+
+Elementos: Son los bloques básicos de construcción de una página web. 
+Cada elemento está rodeado por una etiqueta de apertura y una etiqueta de cierre y contiene contenido y/o atributos.
+
+Atributos: Son propiedades adicionales que se pueden agregar a las etiquetas de HTML para proporcionar más información sobre el elemento. 
+Los atributos se escriben dentro de las etiquetas y se definen con un nombre y un valor.
+
+Texto: Es el contenido principal de una página web y se puede escribir entre las etiquetas de texto.
+
+Enlaces: Son elementos que se utilizan para enlazar una página web con otra o para dirigir al usuario a una ubicación específica en la página web actual.
+
+Imágenes: Son elementos que se utilizan para mostrar imágenes en una página web. 
+Las imágenes se pueden incrustar en la página web utilizando la etiqueta img.
+
+Listas: Son elementos utilizados para organizar y presentar información en forma de lista. 
+Hay dos tipos de listas en HTML: listas ordenadas y listas desordenadas.
+
+Tablas: Son elementos utilizados para organizar y presentar información en forma de tabla. 
+Las tablas se crean utilizando la etiqueta table y se organizan en filas y columnas utilizando las etiquetas tr (fila) y td (celda).
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejemplo de HTML</title>
+</head>
+<body>
+	<h1>Encabezado Principal</h1>
+	<p>Este es un párrafo de ejemplo que describe la página.</p>
+	
+	<h2>Sección 1</h2>
+	<ul>
+		<li>Elemento 1</li>
+		<li>Elemento 2</li>
+		<li>Elemento 3</li>
+	</ul>
+	
+	<h2>Sección 2</h2>
+	<table>
+		<tr>
+			<th>Encabezado de columna 1</th>
+			<th>Encabezado de columna 2</th>
+		</tr>
+		<tr>
+			<td>Fila 1, columna 1</td>
+			<td>Fila 1, columna 2</td>
+		</tr>
+		<tr>
+			<td>Fila 2, columna 1</td>
+			<td>Fila 2, columna 2</td>
+		</tr>
+	</table>
+	
+	<h2>Sección 3</h2>
+  
+	<a href="https://www.ejemplo.com">Enlace a ejemplo.com</a>
+	
+	<h2>Sección 4</h2>
+	<img src="ejemplo.jpg" alt="Imagen de ejemplo">
+	
+</body>
+</html>
+
+#Este ejemplo utiliza algunas de las variables básicas de HTML, como las etiquetas de encabezado (h1, h2), 
+la etiqueta de párrafo (p), la etiqueta de lista desordenada (ul) con elementos de lista (li), 
+la etiqueta de tabla (table) con filas (tr) y celdas (td), la etiqueta de enlace (a) y la etiqueta de imagen (img). 
+También incluye un título de página (title) en la sección head. 
+Por supuesto, este es sólo un ejemplo básico y hay muchas más etiquetas y atributos que se pueden utilizar para crear páginas web más complejas y personalizadas.
