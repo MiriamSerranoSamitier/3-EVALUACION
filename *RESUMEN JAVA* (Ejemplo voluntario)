@@ -1,0 +1,99 @@
+Java es un lenguaje de programación orientado a objetos utilizado para crear aplicaciones de software. 
+A continuación, se describo algunas de las variables básicas de Java:
+
+Variables: Son contenedores utilizados para almacenar valores en la memoria del programa. 
+Cada variable tiene un nombre, un tipo y un valor.
+
+Tipos de datos: Los tipos de datos especifican el tipo de valor que se puede almacenar en una variable. 
+Algunos tipos de datos básicos en Java son int, float, double, boolean y char.
+
+Operadores: Son símbolos utilizados para realizar operaciones matemáticas o lógicas en los valores almacenados en las variables.
+
+Estructuras de control: Son bloques de código utilizados para controlar el flujo de ejecución de un programa. 
+Algunas estructuras de control en Java son if-else, for, while y switch.
+
+Clases y objetos: Las clases son plantillas utilizadas para crear objetos, que son instancias de la clase. 
+Cada objeto tiene un estado y un comportamiento definidos por su clase.
+
+Métodos: Son bloques de código que se utilizan para realizar una tarea específica en un programa. 
+Los métodos pueden tomar argumentos y devolver valores.
+
+Arreglos: Son estructuras de datos utilizadas para almacenar múltiples valores del mismo tipo en una variable.
+
+Entrada y salida: Java tiene clases y métodos que se utilizan para leer datos de entrada desde el usuario o desde un archivo, 
+y para escribir datos de salida a la consola o a un archivo.
+
+
+Aquí dejo un programa de ejemplo con la bases de java que he aprendido:
+
+import java.util.Scanner;
+
+public class EjemploJava {
+    public static void main(String[] args) {
+        // Declaración y asignación de variables
+        int edad = 25;
+        float altura = 1.75f;
+        double peso = 70.5;
+        boolean esEstudiante = true;
+        char genero = 'M';
+        
+        // Operadores matemáticos
+        int a = 5, b = 10;
+        int suma = a + b;
+        int resta = b - a;
+        int multiplicacion = a * b;
+        int division = b / a;
+        
+        // Estructuras de control
+        if (edad >= 18) {
+            System.out.println("Eres mayor de edad");
+        } else {
+            System.out.println("Eres menor de edad");
+        }
+        
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Ingresa un número:");
+        int numero = scanner.nextInt();
+        
+        for (int i = 1; i <= numero; i++) {
+            System.out.println(i);
+        }
+        
+        // Clases y objetos
+        Persona persona1 = new Persona("Juan", 30);
+        Persona persona2 = new Persona("María", 25);
+        
+        System.out.println(persona1.getNombre() + " tiene " + persona1.getEdad() + " años.");
+        System.out.println(persona2.getNombre() + " tiene " + persona2.getEdad() + " años.");
+        
+    }
+}
+
+class Persona {
+    private String nombre;
+    private int edad;
+    
+    public Persona(String nombre, int edad) {
+        this.nombre = nombre;
+        this.edad = edad;
+    }
+    
+    public String getNombre() {
+        return nombre;
+    }
+    
+    public int getEdad() {
+        return edad;
+    }
+}
+
+En este ejemplo utilizo algunas de las variables básicas de Java, como las variables de diferentes tipos de datos (int, float, double, boolean, char), 
+los operadores matemáticos (+, -, *, /), las estructuras de control (if-else, for), las clases y objetos (Persona), los métodos (getNombre, getEdad) 
+y la entrada y salida de datos (Scanner, System.out.println). 
+También uso la declaración y asignación de variables, así como la inicialización de objetos y el uso de sus atributos y métodos.
+
+
+
+
+
+
